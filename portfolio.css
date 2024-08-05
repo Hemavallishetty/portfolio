@@ -1,0 +1,120 @@
+*{
+padding:10px;
+margin: 0;
+font-family:'Segoe UI',sans-serif;
+box-sizing: border-box;
+}
+
+body{
+background-color: black;
+color: aliceblue;
+}
+#header{
+width:100%;
+height: 100vh;
+background-image: url('IMG_20240218_201613.jpg');
+background-size: cover;
+background-position: center;
+}
+.con{
+    padding: 10px;
+
+}
+#im{
+    border-radius: 50%;
+}
+nav{
+    display:inline-block;
+
+}
+#color{
+    color: brown;
+}
+#hema{
+    font-size: 50px;
+    margin-top: 20px;
+
+    
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+nav ul li{
+display: inline-block;
+list-style: none;
+margin: 10px 20px;
+}
+nav ul li a{
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+}
+#about1 {
+padding: 50px;
+font-size: 20px;
+text-align: right;
+background-position: left;
+
+}
+#about{
+font-size: 20px;
+background-image: url("back\ \(2\).jpg");
+background-size: cover;
+}
+aside{
+
+width: 40%;
+padding-left: 15px;
+margin-left: 15px;
+float: right;
+text-align: left;
+background-color: rgb(231, 104, 104);
+color: black;
+}
+#hed{
+    font-size: 30px;
+}
+#hi{
+    font-size: 26px;
+}
+#skill{
+padding: 50px;
+font-size: 30px;
+}
+#soc{
+padding: 50px;
+font-size: 25px;
+}
+#sp{
+padding: 50px;
+font-size: 25px; 
+}
+#pro{
+text-align: center;
+font-size: 60px;
+}
+#projects{
+padding: 50px;
+font-size: 26px;
+background-image: url("project.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+#contact{
+     background-image:url("cantact.jpg") ;
+   
+    background-size: cover;
+    margin: 0px;
+    padding:20px;
+    padding-bottom: 100px;
+
+    font-size: 25px;
+}
+#con{
+    background-image:url("contact.jpg") ;
+}
+
